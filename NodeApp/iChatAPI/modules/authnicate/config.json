@@ -1,0 +1,16 @@
+{
+    "uriSet": [
+        {
+            "uri": "/authnicate/register",
+            "httpMethod": "post",
+            "routeHandler":"serviceLayer/authnicateHandler.js",
+            "isSecured":false
+        },
+        {
+            "uri": "/authnicate",
+            "httpMethod": "post",
+            "routeHandler":"serviceLayer/authnicateHandler.js",
+            "isSecured":false
+        }
+    ]   
+}

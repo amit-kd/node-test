@@ -1,0 +1,20 @@
+{
+  "appName":"iChatAPI",
+  "baseUri":"/ichatapi",
+  "serverPort":3000,
+  "serverErrorShutdownTime":60000,
+  "modules":[
+    "authnicate"    
+  ],
+  "appLevelUris":[],
+  "secret":"SECRERT",
+  "tokenExpiresInMinutes":180,  
+  "DBConfig":{
+  	"secret": "SECRERT",
+    "url": "mongodb://localhost/test",
+    "SchemaModels":[{
+    	"ref":"Users",
+    	"path": "./models/Users.js"
+    }]
+  }
+}

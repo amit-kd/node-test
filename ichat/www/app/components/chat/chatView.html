@@ -1,0 +1,13 @@
+<section class="post container">
+	<ol class="breadcrumb">
+        <li><a href="#/">iChat</a></li>
+        <li class="active">Chat</li>
+    </ol>
+    <ul ng-repeat="item in messages">
+    	<li>{{item}}</li>
+    </ul>
+	<form class="form-horizontal" role="form">
+		<label for="inputUsername" class="col-sm-4 control-label">This is Secured view</label>
+		<a href="#/" ng-click="logout()">Logout</a>		
+	</form>	
+</section>
